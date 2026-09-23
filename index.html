@@ -23,7 +23,16 @@
     <main>
         <!-- Hero Section -->
         <section>
-            <img src="images/hero-mother-baby.jpg" alt="Mother and baby smiling" width="100%">
+                <picture>
+        <source media="(max-width: 768px)" srcset="images/hero-mother-baby.jpg">
+        <img src="images/hero-mother-baby.jpg" 
+             srcset="images/hero-mother-baby.jpg 480w,
+                     images/hero-mother-baby.jpg 768w,
+                     images/hero-mother-baby.jpg 1200w"
+             sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, 50vw"
+             alt="Mother and baby smiling at Neo Birth Care Center" 
+             width="100%">
+    </picture>
             <h2>Compassionate Care for Every Mother and Baby</h2>
             <p>At Neo Birth Care Center, we believe every mother deserves safe, dignified, and affordable care. We provide comprehensive support from pregnancy to early parenthood.</p>
             <a href="contact.html"><button>Book an Appointment</button></a>
