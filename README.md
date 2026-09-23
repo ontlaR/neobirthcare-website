@@ -63,10 +63,18 @@ Live Site: https://your-username.github.io/Neo-Birth-Care-Center-Project/html/in
 #### 3.4 Testing
 - Tested using Chrome DevTools > Device Toolbar (Ctrl+Shift+M) at 375px mobile, 768px tablet, 1024px desktop
 
-### Screenshots (Add your screenshots here)
-- Desktop 1024px: [Paste screenshot]
-- Tablet 768px: [Paste screenshot]
-- Mobile 375px: [Paste screenshot]
+### Screenshots
+
+#### Desktop 1024px
+![Desktop](images/desktop-1024.png)
+
+#### Tablet 768px
+![Tablet](images/tablet-768.png)
+
+#### Mobile 375px
+![Mobile](images/mobile-375.png)
+
+Testing done with Chrome DevTools Device Toolbar at 375px, 768px, 1024px
 
 To take screenshots: Open site in Chrome > Press F12 > Click phone icon > Select dimensions > Screenshot
 
