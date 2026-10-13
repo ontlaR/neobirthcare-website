@@ -1,34 +1,30 @@
-# Neo Birth Care Center - Part 3
+# Neo Birth Care Center - WEDE5020 Part 3
 
 ## Part 3 Changelog - Working through Feedback from Part 2
 
 #### Part 2 Feedback Fixes (Date: 13 Oct 2026)
-- **Feedback Entry 1:** Fixed CSS specificity issues - Lecturer said some inline styles in Part 2 were overriding external stylesheet. Removed all inline styles from all 5 HTML pages.
-- **Feedback Entry 2:** Fixed responsive breakpoint overlap - Adjusted media queries from max-width 768px to 768px and 480px to prevent conflict.
-- **Feedback Entry 3:** Improved alt text for accessibility - Made alt text more descriptive for screen readers, e.g., changed "baby" to "Newborn baby receiving care at Neo Birth Center".
-- **Feedback Entry 4:** Fixed footer not sticking - Added flex layout to body to ensure footer stays at bottom on short pages.
+- **Feedback Entry 1:** Fixed CSS specificity issues - Removed all inline styles overriding external stylesheet.
+- **Feedback Entry 2:** Fixed responsive breakpoint overlap - Adjusted media queries from 768px to 768px and 480px.
+- **Feedback Entry 3:** Improved alt text - Changed "baby" to "Newborn baby receiving care at Neo Birth Center Mbombela".
+- **Feedback Entry 4:** Fixed footer - Added flex layout to ensure footer stays at bottom.
 
 #### Part 3 New Enhancements
-- **Date: 13 Oct 2026 - New:** Added JavaScript interactivity - accordion FAQ, Leaflet map, image lightbox gallery, animations
-- **Date: 13 Oct 2026 - New:** Implemented dynamic content loading for services with JS array
-- **Date: 13 Oct 2026 - New:** Added live search filter for services
-- **Date: 13 Oct 2026 - New:** Implemented On-Page SEO - unique title tags, meta descriptions, header tags, image optimization
-- **Date: 13 Oct 2026 - New:** Added technical SEO - robots.txt, sitemap.xml, page speed optimization
-- **Date: 13 Oct 2026 - New:** Created functional enquiry.html and contact.html forms with HTML5 + JavaScript validation + AJAX simulation
+- Added JavaScript interactivity - accordion FAQ, Leaflet map, lightbox gallery
+- Implemented dynamic content loading for services with JS array
+- Added live search filter for services
+- Implemented On-Page SEO - unique title tags, meta descriptions, header tags
+- Added technical SEO - robots.txt, sitemap.xml
+- Created functional enquiry.html and contact.html forms with validation
 
-## SEO Keywords Used
-Primary: Neo Birth Care Center, newborn care, maternal health, antenatal care South Africa
-Secondary: baby clinic Mbombela, neonatal screening, mother and baby support
-
-## References Updated for Part 3
-- Leaflet.js - https://leafletjs.com - Interactive map library
-- Lightbox2 - https://lokeshdhakar.com/projects/lightbox2/
-- Google SEO Starter Guide - https://developers.google.com/search/docs/fundamentals/seo-starter-guide
-- MDN - Client-side form validation
+## SEO Keywords
+Primary: Neo Birth Care Center, newborn care, maternal health, antenatal care
+Secondary: baby clinic Mbombela, neonatal screening
 
 ## Live Site
-Deployed on Netlify: [Add your Netlify link here after deploy]
-GitHub: [Your GitHub repo link]# Neo Birth Care Center - WEDE5020 Part 2
+Netlify: [Add after deploy]
+GitHub: [Your GitHub link]
+
+# Neo Birth Care Center - WEDE5020 Part 2
 
 Live Site: https://your-username.github.io/Neo-Birth-Care-Center-Project/html/index.html
 
