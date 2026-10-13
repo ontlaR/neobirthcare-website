@@ -26,7 +26,7 @@ GitHub: https://github.com/ontlaR/neobirthcare-website
 
 # Neo Birth Care Center - WEDE5020 Part 2
 
-Live Site: https://ontlaR.github.io/Neo-Birth-Care-Center-Project/html/index.html
+Live Site: https://6acdab7b8b801ccc55ee16e4--inquisitive-kangaroo-a5829a.netlify.app/
 
 ## Part 2 Updates
 
