@@ -23,6 +23,7 @@ Secondary: baby clinic Mbombela, neonatal screening
 ## Live Site
 Netlify: https://app.netlify.com/projects/inquisitive-kangaroo-a5829a/deploys/6acdab7b8b801ccc55ee16e4
 GitHub: https://github.com/ontlaR/neobirthcare-website
+Live Site: https://inquisitive-kangaroo-a5829a.netlify.app/
 
 # Neo Birth Care Center - WEDE5020 Part 2
 
