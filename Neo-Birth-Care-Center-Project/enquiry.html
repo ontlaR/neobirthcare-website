@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquire | Volunteer, Sponsor & Donations | Neo Birth Care</title>
+    <meta name="description" content="Enquire about Neo Birth Care services, volunteer opportunities, sponsorship, or make a donation to support mothers and babies in Mbombela.">
+    <meta name="keywords" content="volunteer Neo Birth Care, sponsor baby clinic, donation maternal health, enquiry form">
+    <meta name="author" content="Neo Birth Care Center">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>Neo Birth Care Center</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Volunteer / Sponsor / Service Enquiry</h2>
+        <p>Support mothers and babies in Mbombela - volunteer, sponsor a mother, or donate.</p>
+
+        <!-- Part 3 - Enquiry Form with Validation -->
+        <form id="enquiryForm" onsubmit="return validateEnquiryForm(event)" novalidate>
+            <label for="name">Full Name *</label><br>
+            <input type="text" id="name" name="name" required minlength="2" placeholder="John Doe" style="width:100%; padding:10px; margin:8px 0;"><br><br>
+            
+            <label for="email">Email *</label><br>
+            <input type="email" id="email" name="email" required placeholder="john@email.com" style="width:100%; padding:10px; margin:8px 0;"><br><br>
+            
+            <label for="phone">Phone (10 digits)</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="0821234567" style="width:100%; padding:10px; margin:8px 0;"><br><br>
+            
+            <label for="type">Enquiry Type *</label><br>
+            <select id="type" name="type" required style="width:100%; padding:10px; margin:8px 0;">
+                <option value="">-- Select --</option>
+                <option value="service">Service Enquiry</option>
+                <option value="volunteer">Become a Volunteer</option>
+                <option value="sponsor">Become a Sponsor</option>
+                <option value="donation">General Donation</option>
+            </select><br><br>
+            
+            <label for="message">Message *</label><br>
+            <textarea id="message" name="message" required minlength="10" rows="5" placeholder="Type your full message here..." style="width:100%; padding:10px; margin:8px 0;"></textarea><br><br>
+            
+            <button type="submit" style="padding:12px 20px; background:#ff6b9d; color:white; border:none; border-radius:8px; cursor:pointer;">Submit Enquiry</button>
+            <p id="formError" style="color:red; margin-top:10px; font-weight:bold;"></p>
+        </form>
+    </main>
+
+    <footer style="text-align:center; padding:20px; margin-top:30px; background:#f5f5f5;">
+        <p>&copy; 2026 Neo Birth Care Center | Mbombela, Mpumalanga</p>
+        <p><a href="sitemap.xml">Sitemap</a> | <a href="robots.txt">Robots.txt</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
